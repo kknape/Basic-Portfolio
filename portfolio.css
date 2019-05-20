@@ -1,0 +1,80 @@
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+
+/*header row with Name, About, Contact */
+.name {
+        float: left;
+        background-color: turquoise;
+        margin-top: 20px;
+        margin-left: 400px;
+        color: white;
+        height: 60px;
+        width: 140px;
+        text-align: center;
+        position: relative;
+
+}
+
+.about {
+      float: right;
+      margin-top: 20px;
+      margin-right: 20px;
+
+}
+.portfolio {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.contact{
+    float: right;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+/*grey background main content area*/
+.background {
+    width: 960px;
+    height: 400px;
+    background-color: gray;
+    margin: 0px 150px 0px 150px;
+}
+
+/*content area*/
+.content-area {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 50px 0px 40px 230px;
+}
+
+footer {
+    background-color: darkgray;
+    text-align: center;
+    border-top: 6px;
+    border-style: solid;
+    border-color: turquoise transparent transparent transparent;
+    height: 40px;
+
+}
+
+/*veritcally align text*/
+.vertical-center {
+                    margin: 0;
+                    position: absolute;
+                    top: 50%
+
+}
+
+/*veritcally align text*/
+.vertical-bottom {
+    margin: 0;
+    position: absolute;
+    top: 100%
+
+}
