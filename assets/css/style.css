@@ -8,31 +8,35 @@
 /*header row with Name, About, Contact */
 .name {
         float: left;
-        background-color: turquoise;
+        background-color:#4aaaa5;
         margin-top: 20px;
         margin-left: 400px;
         color: white;
-        height: 60px;
+        height: 50px;
         width: 140px;
         text-align: center;
         position: relative;
+        font-size: 18pt;
+        padding-top: 20px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 
 }
 
 .about {
       float: right;
-      margin-top: 20px;
+      margin-top: 35px;
       margin-right: 20px;
-
+     
 }
 .portfolio {
     float: right;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-right: 20px;
 }
 .contact{
     float: right;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-right: 200px;
 }
 
@@ -40,35 +44,92 @@
 .background {
     width: 960px;
     height: 400px;
-    background-color: gray;
     margin: 0px 150px 0px 150px;
+    background-image: url("images/dynamic-style-bg.png");
+    background-color: gray;
+    background-size: cover;
+    position: relative;
+
 }
 
 /*content area*/
 .content-area {
-    background-color: white;
+    background-color: #ffffff;
     width: 500px;
     height: 300px;
     float: left;
     margin: 50px 0px 40px 230px;
+    overflow: auto;
+    border: #dddddd;
 }
 
+h1 {
+    color: #4aaaa5;
+    margin: 20px 10px 20px 20px;
+    font-size: 18pt;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+  img {
+    margin: 0 10px 10px 10px;
+    max-width: 100%;
+    height: auto;
+    float: left;
+  }
+
+  p {
+      margin: 0px 10px 0px 10px;
+      color: #7777;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px 10px 0px 10px;
+    color: #7777;
+    }
+
+a: link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color:#c6cbd3;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 footer {
-    background-color: darkgray;
+    background-color: #666666;
     text-align: center;
     border-top: 6px;
     border-style: solid;
-    border-color: turquoise transparent transparent transparent;
+    border-color: #4aaaa5 transparent transparent transparent;
     height: 40px;
 
 }
 
 /*veritcally align text*/
 .vertical-center {
-                    margin: 0;
-                    position: absolute;
-                    top: 50%
-
+    margin: 0;
+    position: absolute;
+    top: 50%
 }
 
 /*veritcally align text*/
