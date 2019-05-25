@@ -13,6 +13,7 @@ body {
     background-image: url("../images/gravel_bg.png");
     background-color: gray;
     background-size: cover;
+    position: relative;
 }
 
 
@@ -46,18 +47,6 @@ body {
     display: block;
     margin: 40px 50px 35px 900px;
 }
-/*
-.about {
-      float: left;  
-}
-
-.portfolio {
-    float: left;
-}
-
-.contact{
-    float: left;
-} */
 
 /*content area*/
 .content-area {
