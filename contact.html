@@ -3,57 +3,69 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>Kadonna's Contact Information</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-  <!-- <style>
-body, div {border: 3px solid black}
+<!--  <style>
+body, div, a {border: 1px solid black}
 </style> -->
 
+<!--Global page layout starts here-->
 </head>
 
 <body>
+<div class=header>  
 
-    <div class="name">
-        <div class="veritcal-center">
-            <p>Kadonna</p>
+    <div class="name veritcal-center">
+        Kadonna
+    </div>
+
+        <div class="navigation-links">
+            <a href="/about.html/">About</a> |
+            <a href="/portfolio.html/">Portfolio</a> |
+            <a href="/contact.html/">Contact</a>
         </div>
-    </div>
-    
-    <div class="contact">
-            <div class="veritcal-center">
-                    <p>Contact</p>
-                </div>
-    </div>
-    
-    <div class="portfolio">
-            <div class="veritcal-center">
-                    <p>Portfolio</p>
-                </div>
-    </div>
-    
-    <div class="about">
-            <div class="veritcal-center">
-                    <p>About</p>
-                </div>
-    </div>
-    
-    
-    <div class="clearfix"></div>
-    
-    <div class="background"> 
-    
-    <div class="content-area">
-            <p>Contact</p>
-        </div>
-    
-    <div class="clearfix"></div>
-    
-    
-    <footer>This is my footer area.</footer>
-    </div>
-    
-    
-    
-    
-    </body>
+</div>
+
+ <div class="clearfix"></div>
+<!--Global page layout ends here-->
+
+
+ <!--Update content area for each page-->
+<div class="content-area">
+        <h1>Contact</h1>
+
+        <hr>
+        
+        <form>
+            <label for="fname">Name</label><br>
+            <input type="text" name="fname" placeholder="Your name please."><br>
+
+            <label for="femail">Email</label><br>
+            <input type="text" name="femail" placeholder="Your email please."><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" placeholder="Nice to meet you. How can I help you?"></textarea>
+
+            <!--<label for="fmsg">Message</label><br>
+            <input type="longtext" id="fmsg" name="fmsg" placeholder="Nice to meet you. How can I help you?">-->
+
+            <button type="submit" name="button">Submit</button>
+        </form>
+
+</div>
+
+<!--Global page layout starts here-->
+
+<div class="clearfix"></div>
+
+
+<div class="fixed footer">
+        <div class="footer-text">This is my footer area.</div>
+</div>
+
+<!--Global page layout ends here-->
+
+
+</body>
