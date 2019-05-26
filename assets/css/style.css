@@ -81,7 +81,7 @@ hr {
   } 
 
 img {
-    margin: 0 15px 15px 25px;
+    margin: 0 15px 15px 20px;
     max-width: 100%;
     height: auto;
     float: left;
@@ -91,6 +91,7 @@ p {
       margin: 0px 20px 10px 20px;
       color: #7777;
       font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      line-height: +1.6;
   }
 
 a {
@@ -229,7 +230,7 @@ button:active {
     height: 30px;
     margin: 180px 0px 10px 0px;
     padding: 16px 0px 0px 0px;
-    background-color: #4aaaa5;
+    background-color: rgba(0, 153, 153, .8);
     color: white;
     position: absolute;
     text-align: center;
